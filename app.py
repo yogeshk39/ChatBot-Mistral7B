@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # installing dependencies
-!pip install accelerate peft bitsandbytes transformers trl py7zr auto-gptq optimum
+!pip install accelerate bitsandbytes git+https://github.com/huggingface/transformers 
 
 # getting token from hugging face access token
 from huggingface_hub import notebook_login
